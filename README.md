@@ -1,5 +1,5 @@
 # decode-ais
 simple decoder made from javascript
 ---
-permalink: /index.html
+permalink: /decode.html
 ---
