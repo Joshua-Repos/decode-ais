@@ -19,7 +19,7 @@
         margin: 8px 0;
         box-sizing: border-box;
       } 
-      .button {
+     input[type=button], input[type=submit], input[type=reset] {
         background-color: #04AA6D; /* Green */
         border: none;
         color: white;
@@ -40,7 +40,7 @@
   <body>
     <script src="decode.js" defer></script>
     Input: <input type="text" id="mytext">
-    <button id="myBtn" type="button"  onclick="decodeText()">Decode</button>
+    <input type="button" value"Decode"  onclick="decodeText()">
     <div id="decodedDiv">
   </body>
 </html>
